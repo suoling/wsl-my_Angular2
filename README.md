@@ -1,27 +1,41 @@
-# MyAngular
+## 安装依赖
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
+```shell
+npm install
+```
 
-## Development server
+## 运行
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```shell
+ng serve --open
+```
 
-## Code scaffolding
+## 创建组件
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+ng generate component component-name
+```
 
-## Build
+## 创建指令|管道|服务|类|接口|模块 等
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```shell
+ng generate directive|pipe|service|class|guard|interface|enum|module name
+```
 
-## Running unit tests
+## 打包编译
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell
+ng build
+```
 
-## Running end-to-end tests
+## 测试
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```shell
+ng test
+```
 
-## Further help
+## 端到端测试
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```shell
+ng e2e
+```
